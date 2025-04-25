@@ -52,6 +52,7 @@ body {
     background-color: #45a049;
   }
   
+  /*Definindo estilo da lista de tarefas*/
   ul {
     list-style: none;
     padding: 0;
