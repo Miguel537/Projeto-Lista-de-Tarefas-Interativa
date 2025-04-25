@@ -6,12 +6,15 @@ const taskList = document.getElementById('task-list');
 // Declarando variável 
 let editingTask = null;
 
+
+//Anexando o manipulador de eventos que será executado 
 form.addEventListener('submit', (e) => {
   e.preventDefault();
 
   const text = input.value.trim();
   if (!text) return;
 
+  //Executando o código condicionalmente 
   if (editingTask) {
     editingTask.querySelector('span').textContent = text;
     editingTask = null;
