@@ -1,6 +1,8 @@
+
+/* Definindo cor e organização para o elemento body no html */
 body {
     font-family: 'Segoe UI', sans-serif;
-    background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
+    background: linear-gradient(135deg, #122b9e 0%, #032b63 100%);
     margin: 0;
     padding: 0;
     display: flex;
@@ -9,6 +11,7 @@ body {
     min-height: 100vh;
   }
   
+  /*Definindo cores e margens para o Titulo*/
   h1 {
     margin-top: 40px;
     color: white;
