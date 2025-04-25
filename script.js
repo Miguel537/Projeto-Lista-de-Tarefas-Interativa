@@ -1,3 +1,4 @@
+// Obtendo referência para o HTML 
 const form = document.getElementById('task-form');
 const input = document.getElementById('description');
 const taskList = document.getElementById('task-list');
