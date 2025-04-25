@@ -3,6 +3,7 @@ const form = document.getElementById('task-form');
 const input = document.getElementById('description');
 const taskList = document.getElementById('task-list');
 
+// Declarando variável 
 let editingTask = null;
 
 form.addEventListener('submit', (e) => {
