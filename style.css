@@ -38,6 +38,7 @@ body {
     flex: 1;
   }
   
+  /*Dando vida aos botões*/
   button {
     background-color: #4caf50;
     color: white;
